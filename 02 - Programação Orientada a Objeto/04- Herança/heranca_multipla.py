@@ -22,6 +22,7 @@ class Ornitorrinco(Mamifero, Ave):
     def __init__(self, cor_bico, cor_pelo, num_patas):
         super().__init__(cor_bico=cor_bico, cor_pelo=cor_pelo, num_patas=num_patas)
 
+
 gato = Gato(num_patas=4, cor_pelo='preto')
 print(gato)
 

@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod, abstractproperty
+from abc import ABC, abstractmethod
 
 
 class ControleRemoto(ABC):
@@ -14,6 +14,7 @@ class ControleRemoto(ABC):
     @abstractmethod
     def marca(self):
         pass
+
 
 class ControleTV(ControleRemoto):
     def ligar(self):
